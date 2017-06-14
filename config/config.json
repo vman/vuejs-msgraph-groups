@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/groups/GroupsWebPart.js",
+      "manifest": "./src/webparts/groups/GroupsWebPart.manifest.json",
+      "outputPath": "./dist/groups.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "groupsStrings": "webparts/groups/loc/{locale}.js"
+  }
+}

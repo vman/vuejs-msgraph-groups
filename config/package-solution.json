@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "vuejs-msgraph-groups-client-side-solution",
+    "id": "96c7a44c-f557-40ee-838b-b91bfb10124c",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/vuejs-msgraph-groups.sppkg"
+  }
+}

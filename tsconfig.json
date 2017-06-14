@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "es6-promise",
+      "es6-collections",
+      "webpack-env"
+    ]
+  },
+  "include": [
+    "./**/*.ts",
+    "./**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

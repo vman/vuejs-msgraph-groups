@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "d749566f-3b6e-4487-9de9-015029aa0994",
+  "alias": "GroupsWebPart",
+  "componentType": "WebPart",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+
+  /**
+   * This property should only be set to true if it is certain that the webpart does not
+   *  allow arbitrary scripts to be called
+   */
+  "safeWithCustomScriptDisabled": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "d749566f-3b6e-4487-9de9-015029aa0994",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Groups" },
+    "description": { "default": "Groups description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Groups"
+    }
+  }]
+}
